@@ -1,7 +1,7 @@
 <template>
     <Form
         @submit="submitContact"
-        :validation-scheme="contactFormSchema"
+        :validation-schema="contactFormSchema"
     >
         <div class="form-group">
             <label for="name">Tên</label>
